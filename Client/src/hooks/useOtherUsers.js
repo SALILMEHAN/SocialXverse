@@ -19,6 +19,6 @@ const useOtherUsers = (id) => {
             }
         }
         fetchOtherUsers();
-    },[]);
+    },[id,dispatch]);
 };
 export default useOtherUsers;
