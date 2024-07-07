@@ -11,11 +11,11 @@ const Home = () => {
     const { user, otherUsers } = useSelector(store => store.user);
     const navigate = useNavigate();
 
-    useEffect(() => {
-        if (!user) {
-            navigate("/login");
-        }
-    }, []);
+    if (!user) {
+        navigate("/login");
+    }
+    // useEffect(() => {
+    // }, []);
     // custom Hook
     useOtherUsers(user?._id);
     useGetMyTweets(user?._id);
