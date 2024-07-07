@@ -20,7 +20,7 @@ app.use(express.urlencoded({
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin:"https://heartfelt-cascaron-034db4.netlify.app",
+    origin:"https://social-xverse-client.vercel.app",
     credentials:true
 }
 app.use(cors(corsOptions));
