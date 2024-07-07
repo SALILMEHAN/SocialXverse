@@ -1,4 +1,3 @@
-import React from 'react';
 import Avatar from "react-avatar";
 import { FaRegComment } from "react-icons/fa";
 import { MdOutlineDeleteOutline } from "react-icons/md";

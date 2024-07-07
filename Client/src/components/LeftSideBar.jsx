@@ -1,11 +1,10 @@
-import React from 'react';
 import { CiHome } from "react-icons/ci";
 import { CiHashtag } from "react-icons/ci";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { CiUser } from "react-icons/ci";
 import { CiBookmark } from "react-icons/ci";
 import { AiOutlineLogout } from "react-icons/ai";
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from "react-redux";
 import axios from "axios";
 import { USER_API_END_POINT } from '../utils/constants';

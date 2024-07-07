@@ -1,11 +1,10 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Outlet, useNavigate } from "react-router-dom";
 import useOtherUsers from '../hooks/useOtherUsers';
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import useGetMyTweets from '../hooks/useGetMyTweets';
 import LeftSideBar from './LeftSideBar';
 import RightSideBar from './RightSideBar';
-import { getRefresh } from '../redux/tweetSlice';
 
 
 const Home = () => {

@@ -1,11 +1,10 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { USER_API_END_POINT } from '../utils/constants';
 import { useDispatch, useSelector } from 'react-redux';
 import toast from 'react-hot-toast';
-import { getRefresh } from '../redux/tweetSlice';
-import { getMyProfile, getUser } from '../redux/userSlice';
+import { getUser } from '../redux/userSlice';
 
 function EditProfile() {
 
